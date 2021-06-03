@@ -14,6 +14,8 @@ class User extends Authenticatable
     public $timestamps = false;
     protected $guarded = [];
 
+    protected $rememberTokenName = false;
+
     /**
      * The attributes that are mass assignable.
      *
